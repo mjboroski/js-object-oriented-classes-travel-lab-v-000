@@ -4,6 +4,9 @@ class Driver{
     this.startDate = new Date(startDate);
   }
 
+  yearsExperienceFromBeginningOf (endDate){
+    return endDate - startDate;
+  }
 }
 
 class Route{
